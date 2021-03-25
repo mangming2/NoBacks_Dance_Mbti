@@ -1,0 +1,87 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Jua', sans-serif;;
+}
+article{
+    display: flex;
+    flex-direction: column;
+   
+}
+.btn{
+    border-color:burlywood;
+    background-color: burlywood;
+    color: black;
+}
+.btn:hover  {
+    background-color:sienna;
+    border-color:burlywood;
+}
+.btn:focus {
+    background-color:sienna;
+    border-color:burlywood;
+}
+.btn:active {
+    background-color:sienna;
+    border-color:burlywood;
+}
+.shout{
+    margin: 0 auto;
+    font-size: 30px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+}
+.insta{
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+.question{
+    display: none;
+}
+
+.result{
+    display: none;
+    margin: 0 auto;
+    align-items: center;
+    overflow: hidden ;
+}
+
+#img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /*가운데 정렬*/
+}
+#odc{
+    margin-left: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.share{
+    margin: 0 auto;
+}
+
+.kakao_ad{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.progress-bar{
+    background-color: burlywood;
+}
+#explain{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#return{
+    margin-bottom: 5px;
+}
